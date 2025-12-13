@@ -1,0 +1,79 @@
+
+.template1{
+  font-family: Inter, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding: 40px 20px;
+  background: #2563eb;
+  color:white;
+  border-radius: 12px;
+}
+.hero h1{
+  margin:0;
+  font-size:2.5rem;
+}
+.hero h3{
+  margin-top:5px;
+  font-weight:400;
+  color:#dbeafe;
+}
+.hero p{
+  max-width:600px;
+  margin:10px auto;
+  color:#e0eaff;
+}
+
+.social-links a{
+  color:white;
+  margin: 0 10px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* SKILLS */
+.skills-section{
+  margin-top:40px;
+}
+.skills-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.skill-item{
+  background:#2563eb;
+  color:white;
+  padding:5px 12px;
+  border-radius:6px;
+  font-size:0.9rem;
+}
+
+/* PROJECTS */
+.projects-section{
+  margin-top:40px;
+}
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
+}
+.project-card{
+  background:white;
+  border-radius:10px;
+  padding:15px;
+  border:1px solid #ddd;
+}
+.project-card h3{
+  margin-top:0;
+}
+.project-links a{
+  display:inline-block;
+  margin-right:10px;
+  color:#2563eb;
+  text-decoration:none;
+}

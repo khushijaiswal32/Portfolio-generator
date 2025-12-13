@@ -1,0 +1,49 @@
+.template2 {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  color: white;
+  border-radius: 12px;
+}
+
+.about, .skills, .projects {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+.tags span {
+  display: inline-block;
+  background: #111;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.project {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0ea5e9;
+  font-weight: bold;
+}
